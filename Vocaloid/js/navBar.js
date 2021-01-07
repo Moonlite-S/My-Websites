@@ -24,7 +24,7 @@ function hideShow() {
 	}
 }
 
-
+//Changes scrollbar color (So far not working on Firefox, huh)
 function scrollColor() {
 	styleObject = document.getElementsByTagName('html')[0].style
 	styleObject.scrollbarFaceColor = "#ffffff"

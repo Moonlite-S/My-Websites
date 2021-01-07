@@ -13,7 +13,7 @@ html {overflow-x: hidden;}
 	src: url('../capsuula.woff') format('woff');/* Modern Browser Compatible (Chrome TESTED only) */
 }
 
-h1, h2, h3, h4, h5, h6, p, td, li { font-family: Capsuula, Helvetica; }
+h1, h2, h3, h4, h5, h6, p, td, li { font-family: Capsuula, Helvetica; margin-left: 10px; margin-right: 10px; }
 
 p {font-size: 20pt; padding: 5px;}
 
@@ -39,7 +39,8 @@ a {text-decoration: none; color: black;}
 	
 }
 		
-/* This scrollbar change works on Chrome. Not IE  (Not tested on other browsers) IDK with Opera or Firefox (NEEDS TESTING BRO).*/
+/* This scrollbar change works on Chrome. Not IE  (Not tested on other browsers) IDK with Opera or Firefox (NEEDS TESTING BRO).
+	Update from like 3 years later, it does work for Firefox */
 ::-webkit-scrollbar {
     height: 12px;
 	width: 12px;
