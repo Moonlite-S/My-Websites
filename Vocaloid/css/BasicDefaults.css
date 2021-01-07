@@ -1,0 +1,51 @@
+/*
+Name:		Sean De La Cruz
+Date:		May 1/2017
+Section:	S59
+*/
+
+html {overflow-x: hidden;}
+
+/* This puts custom fonts as long as I have the font files in the folder :D */
+@font-face {
+	font-family: Capsuula;
+	src: url('../capsuula.eot'); /* IE Compatible */
+	src: url('../capsuula.woff') format('woff');/* Modern Browser Compatible (Chrome TESTED only) */
+}
+
+h1, h2, h3, h4, h5, h6, p, td, li { font-family: Capsuula, Helvetica; }
+
+p {font-size: 20pt; padding: 5px;}
+
+td {font-size: 15pt; padding: 5px;}
+
+a {text-decoration: none; color: black;}
+
+.parallax { 	
+		
+		height: 1080px;
+		
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+		}
+
+/* Makes all highlighted parts made by user this specific color (Orange; Does it fit with the color palette? o-o)*/
+::selection {
+	background-color: #ff8a00;
+	color: white;
+	
+}
+		
+/* This scrollbar change works on Chrome. Not IE  (Not tested on other browsers) IDK with Opera or Firefox (NEEDS TESTING BRO).*/
+::-webkit-scrollbar {
+    height: 12px;
+	width: 12px;
+	background: #dcdcdc;
+    }
+	
+::-webkit-scrollbar-thumb {
+    background: #ffffff;
+}

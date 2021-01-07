@@ -1,0 +1,123 @@
+/*
+Name:		Sean De La Cruz
+Date:		May 1/2017
+Section:	S59
+*/
+
+.NavScreen {
+	margin-left: 20px;
+	text-align: center;
+	
+	width: 99%;
+	height: 100px;
+	
+	position: fixed;
+	top: 50px;
+	
+	background-color: rgba(0,0,0,.5);
+}
+	
+.NavBar {
+	margin-top: 10px;
+	list-style-type: none;
+	text-align: center;
+	
+	
+}
+
+li.NavBar	{
+
+	font-family: Capsuula, Helvetica;
+	text-align: center;
+	float: left;
+	display: inline;
+	width: 50%;
+	
+	height: 70px;
+	padding: 6px 10px;
+	
+	transition: .5s ease;
+}
+
+li.NavSide {
+	background-color: white;
+	width: 1px;
+	height: 90px;
+	float: right;
+	margin-top: 5px;
+}
+
+a.NavBar	{
+	
+	padding-right: 25px;
+	padding-left: 25px;
+	
+	font-size: 30pt;
+	position: realtive;
+	right: 40px;
+	float: right;
+	text-decoration: none;
+	
+	color: white;
+	-webkit-text-stroke: .5px black;
+	
+}
+
+a.home:hover {
+	color: #fea1ef;	
+}
+
+a.music:hover {
+	color: #99a8ff;	
+}
+
+a.vocals:hover {
+	color: #c4f706;	
+}
+
+a.artists:hover {
+	color: #ffa194;	
+}
+
+
+img.NavPic {
+	margin: 5px 0px 5px 0px;
+	height: 90px;
+	width: auto;
+	float: left;
+}
+
+li.otherNavBar {font-family: Capsuula; font-size: 20pt;}
+
+.otherNavBar {
+		list-style-type: none; 
+		display: block;
+}
+
+#navBarS {
+	display: block;
+}
+
+.deco {
+	background-color: rgba(0,0,0,.5);
+	color: white;
+	
+	font-family: Capsuula;
+	font-weight: bold;
+	
+	border: none;
+	
+	width: 20px; 
+	height: 100px; 
+	
+	position: fixed;  
+	left: 0px; 
+	
+	margin-top: 50px; 
+	
+	z-index: 6;
+	
+	
+}
+
+.deco:focus {outline: 0;}
